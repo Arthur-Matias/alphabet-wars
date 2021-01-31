@@ -1,0 +1,113 @@
+*,input,label{
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.app{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: #2D2E32;
+    letter-spacing: .2rem;
+}
+
+h2{
+    color: red;
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.introduction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 50rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+h3{
+    margin-bottom: 1rem;
+}
+
+b{
+    font-weight: bolder;
+    color: red;
+}
+
+input{
+    height: 4rem;
+    width: 30rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+button{
+    height: 4rem;
+    width: 15rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    border: solid 2px  #2D2E32;
+    background-color: red;
+    color: #2D2E32;
+    transition: ease .2s;
+}
+
+button:hover{
+    background-color:  #2D2E32;
+    color:red;
+    border: solid 2px red;
+    cursor: pointer;
+}
+
+table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50rem;
+}
+
+th{
+    padding: 1rem;
+}
+td{
+    padding: 1rem 2rem;
+    border: 2px solid red;
+    transition: ease .2s;
+}
+
+td:hover{
+    color: #2D2E32;
+    background-color: red;
+}
+
+.result{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    padding: 1rem;
+}
+
+footer{
+    position: absolute;
+    bottom: 2rem;
+    color: #595C64;
+}
+
+footer > p{
+    width: 100%;
+}
