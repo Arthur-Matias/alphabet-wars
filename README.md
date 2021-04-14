@@ -6,7 +6,7 @@
 
 This project was based on the challenge "The Alphabet Wars" from ` codewars `
 
-### <div style="color: red">Introduction:</div>
+### Introduction:
 There is a war and nobody knows - **<span style="color: red">the alphabet war!</span>** There are two groups of hostile letters. The tension between left side letters and right side letters was too high and the war began.
 
 ### The task:
@@ -40,4 +40,18 @@ There is a war and nobody knows - **<span style="color: red">the alphabet war!</
         <td>1</td>
     </tr>        
 </table> 
+
+
+## How to run
+
+    git clone https://github.com/Arthur-Matias/alphabet-wars.git
+    cd alphabet-wars
+
+Then 
+
+Just open `index.html` on your favorite browser
+
+#### or
+
+You can check the deployed project on [this link](https://arthur-matias.github.io/alphabet-wars/)
 </div>
